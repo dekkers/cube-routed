@@ -319,7 +319,7 @@ def openvpn_mgmt_poller():
 			f = open(openvpn_mgmt_pass_file)
 			pw = f.readline().strip()
 			f.close()
-			om = OpenVPNMgmt(data_ip, openvpn_mgmt_port, pw)
+			om = OpenVPNMgmt("127.0.0.1", openvpn_mgmt_port, pw)
 
 			while True:
 				local_clients = om.get_clients()
