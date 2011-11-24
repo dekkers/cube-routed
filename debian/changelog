@@ -1,0 +1,5 @@
+cube-routed (1.0-1) unstable; urgency=low
+
+  * Initial packaging.
+
+ -- Jeroen Dekkers <jeroen@dekkers.ch>  Tue, 25 Oct 2011 18:46:10 +0200

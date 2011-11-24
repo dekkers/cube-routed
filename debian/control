@@ -1,0 +1,13 @@
+Source: cube-routed
+Section: net
+Priority: extra
+Maintainer: Jeroen Dekkers <jeroen@dekkers.ch>
+Build-Depends: debhelper (>= 8.0.0), python
+Standards-Version: 3.9.2
+Homepage: https://github.com/dekkers/cube-routed
+
+Package: cube-routed
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Dynamic routing daemon for OpenVPN
+ Dynamic routing daemon for OpenVPN
