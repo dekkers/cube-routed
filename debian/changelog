@@ -1,3 +1,9 @@
+cube-routed (1.0+git20111124-1) unstable; urgency=low
+
+  * Always connect to localhost for the management interface.
+
+ -- Jeroen Dekkers <jeroen@dekkers.ch>  Thu, 24 Nov 2011 21:47:06 +0100
+
 cube-routed (1.0-1) unstable; urgency=low
 
   * Initial packaging.
